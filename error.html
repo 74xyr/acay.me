@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="window-frame">
+        <div class="hologram-bg">
+            <div class="grid"></div>
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="glow-orb orb-3"></div>
+            <div class="scan-line"></div>
+        </div>
+
+        <div class="content">
+            <div class="container glass">
+                <div class="error-icon">
+                    <svg viewBox="0 0 24 24" width="80" height="80">
+                        <circle cx="12" cy="12" r="11" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M8 8l8 8M16 8l-8 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                
+                <h1 class="title error-title">Authorization Failed</h1>
+                <p class="subtitle">Something went wrong during the authorization process.</p>
+                
+                <div class="error-message">
+                    <p>Please try again or contact server support if the issue persists.</p>
+                </div>
+                
+                <a href="/" class="btn btn-primary">
+                    <span class="btn-glow"></span>
+                    Try Again
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
